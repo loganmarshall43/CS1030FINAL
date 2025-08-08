@@ -71,8 +71,7 @@ nav a[aria-current="page"] { color: var(--accent); }
 #banner {
     position: relative;
     width: 100%;
-   /*aspect-ratio: 16 / 9;*/
-    overflow: hidden;
+    aspect-ratio: 16 / 9;
 }
 
 #banner img {
