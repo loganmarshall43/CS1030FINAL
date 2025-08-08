@@ -1,0 +1,64 @@
+:root {
+    --bg: $0f0f0e;
+    --text: #e9e5dd;
+    --muted: #b9b2a6;
+    --accent: #d7a763;
+    --accent-2: #7a5b3a;
+    --card: #91916;
+    --ring: #f1c27d;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box;}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.55;
+}
+
+:focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 6px;
+}
+
+header {
+    position: sticky; top: 0;
+    z-index: 1000;
+    background: linear-gradient(180deg, #151513 0%, rgba(21,21,19.9) 70%, rgba(21,21,19,0) 100%);
+    backdrop-filter: blue(6px);
+    padding: 1rem clamp(1rem, 3vw, 2rem);
+}
+
+header h1 {
+    margin: 0 0 .5rem;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: inline-block;
+    padding: .5rem .8rem;
+    border-radius: .6rem;
+    text-decoration: none;
+    color: var(--text);
+    background: transparent;
+    transition: transform .15s ease, background .15s ease, color .15s ease;
+}
+nav a:hover { background: rgba(255,255,255,.06); transform: translateY(-1px); }
+nav a:active { transform: translateY(0); }
+nav a[aria-current="page"] { color: var(--accent); }
