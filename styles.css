@@ -114,3 +114,27 @@ nav a[aria-current="page"] { color: var(--accent); }
     transition: transform .2s ease, box-shadow .2s ease;
 }
 
+#species-cards article a {
+    display: grid;
+    gap: .35rem;
+    text-decoration: none;
+    color: inherit;
+    padding: 1.2rem 1.2rem 1.5rem;
+    min-height: 140px;
+}
+
+#species-cards h2 {
+    margin: 0;
+    font-size: clamp(1.1rem, 1rem + .6vw, 1.5rem);
+    letter-spacing: .3px;
+}
+
+#species-cards p {
+    margin: 0;
+    color: var(--muted);
+}
+
+#species-cards article:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0,0,0,.45);
+}
