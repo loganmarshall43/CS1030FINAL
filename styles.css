@@ -180,6 +180,7 @@ nav a[aria-current="page"] { color: var(--accent); }
 #species-cards p {
     margin: 0;
     color: var(--muted);
+    font-style: italic;
 }
 
 #species-cards article:hover {
