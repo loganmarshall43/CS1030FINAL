@@ -93,11 +93,11 @@ nav a[aria-current="page"] { color: var(--accent); }
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     text-align: center;
     color: var(--text);
     opacity: 0;
-    transform: translate(-50%, -60%);
+    z-index: 1;
     animation: fadeSlideIn 1.2s ease-out forwards;
     animation-delay: 0.3s;
 }
@@ -127,7 +127,7 @@ nav a[aria-current="page"] { color: var(--accent); }
 @keyframes fadeSlideIn {
     0% {
         opacity: 0;
-        transform: translate(-50%, -60%)
+        transform: translate(-50%, -60%);
     }
     100% {
         opacity: 1;
