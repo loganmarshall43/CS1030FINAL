@@ -138,3 +138,5 @@ nav a[aria-current="page"] { color: var(--accent); }
     transform: translateY(-6px);
     box-shadow: 0 18px 40px rgba(0,0,0,.45);
 }
+#species-cards article:active { transform: translateY(-2px); }
+
