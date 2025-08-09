@@ -137,6 +137,7 @@ nav a[aria-current="page"] { color: var(--accent); }
 
 #site-overview {
     padding: 2rem 0;
+    background-color: #141412;
 }
 
 #site-overview p {
@@ -148,6 +149,7 @@ nav a[aria-current="page"] { color: var(--accent); }
 
 #species-cards {
     width: min(1200px, 92%);
+    padding: 2rem 0;
     margin: 1.5rem auto 3rem;
     display: grid;
     gap: 1.2rem;
@@ -178,9 +180,9 @@ nav a[aria-current="page"] { color: var(--accent); }
 }
 
 #species-cards p {
+    font-style: italic;
     margin: 0;
     color: var(--muted);
-    font-style: italic;
 }
 
 #species-cards article:hover {
