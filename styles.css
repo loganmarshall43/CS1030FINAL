@@ -140,3 +140,14 @@ nav a[aria-current="page"] { color: var(--accent); }
 }
 #species-cards article:active { transform: translateY(-2px); }
 
+footer {
+    color: var(--muted);
+    padding: 2rem 0 4rem;
+    text-align: center;
+}
+
+img { max-width: 100%; height: auto; }
+
+@media (mid-width: 1200px) {
+    header, #site-overview, footer { padding-inline: 0; }
+    }
