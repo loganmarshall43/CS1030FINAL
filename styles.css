@@ -149,7 +149,6 @@ nav a[aria-current="page"] { color: var(--accent); }
 
 #species-cards {
     width: min(1200px, 92%);
-    padding: 2rem 0;
     margin: 1.5rem auto 3rem;
     display: grid;
     gap: 1.2rem;
