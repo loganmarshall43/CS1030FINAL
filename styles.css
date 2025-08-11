@@ -190,6 +190,24 @@ nav a[aria-current="page"] { color: var(--accent); }
 }
 #species-cards article:active { transform: translateY(-2px); }
 
+#species-info, #hunters-info, #management-info {
+    width: min(1200px, 92%);
+    margin: 2rem auto;
+}
+
+#species-info h2,
+#hunters-info h2,
+#management-info h2 {
+    margin-bottom: 0.5rem;
+}
+
+#species-info h3,
+#hunters-info h3,
+#management-info h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
 footer {
     color: var(--muted);
     padding: 2rem 0 4rem;
