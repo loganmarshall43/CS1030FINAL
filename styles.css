@@ -208,6 +208,20 @@ nav a[aria-current="page"] { color: var(--accent); }
     margin-bottom: 0.5rem;
 }
 
+.population-counts {
+    width: min(900px, 92%);
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background: var(--card, #191916);
+    color: var(--text, #e9e5dd);
+    border: 1px solid rgba(255,255,255,.06);
+    box-shadow: 0 8px 24px rgba(0,0,0,.35);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+
 footer {
     color: var(--muted);
     padding: 2rem 0 4rem;
