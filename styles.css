@@ -217,7 +217,7 @@ nav a[aria-current="page"] { color: var(--accent); }
 .population-counts th,
 .population-counts td {
     border: 1px solid #444;
-    padding: 0.5rem, 0.75rem;
+    padding: 0.5rem 0.75rem;
     text-align: left;
 }
 
