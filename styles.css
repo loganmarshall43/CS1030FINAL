@@ -190,6 +190,19 @@ nav a[aria-current="page"] { color: var(--accent); }
 }
 #species-cards article:active { transform: translateY(-2px); }
 
+.population-counts {
+    width: 80%;
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+}
+
+.population-counts th,
+.population-counts td {
+    border: 1px solid #444;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+}
+
 #species-info, #hunters-info, #management-info {
     width: min(1200px, 92%);
     margin: 2rem auto;
@@ -207,21 +220,6 @@ nav a[aria-current="page"] { color: var(--accent); }
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
 }
-
-.population-counts {
-    width: 80%;
-    margin: 1.5rem auto;
-    border-collapse: collapse;
-}
-
-.population-counts th,
-.population-counts td {
-    border: 1px solid #444;
-    padding: 0.5rem 0.75rem;
-    text-align: left;
-}
-
-
 
 footer {
     color: var(--muted);
